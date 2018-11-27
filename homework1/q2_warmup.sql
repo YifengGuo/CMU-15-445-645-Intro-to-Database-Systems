@@ -1,0 +1,1 @@
+ SELECT city, COUNT(distinct(station_name)) AS station_count FROM station GROUP BY city ORDER BY station_count ASC, city ASC;
